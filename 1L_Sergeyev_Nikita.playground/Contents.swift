@@ -1,7 +1,7 @@
 import Foundation
 func squadEquation(a:Float,b:Float,c:Float) -> Any{
     let disc = pow(b,2) - 4*a*c
-    if disc>0
+    if disc>=0
         {
         let x1 = (-b+sqrt(disc))/(2*a)
         let x2 = (-b/a)-x1
