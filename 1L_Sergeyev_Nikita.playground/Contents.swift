@@ -24,7 +24,7 @@ func triangular (a:Float,b:Float)
     
 }
 
-func Summary(sum:Float, percent:Float, years: UInt)->Float
+func summary(sum:Float, percent:Float, years: UInt)->Float
 {
     var fSum = sum
     for _ in 0...years-1
@@ -42,4 +42,4 @@ func Summary(sum:Float, percent:Float, years: UInt)->Float
 
 squadEquation(a: 1, b: -4, c: 3)
 triangular(a: 3, b: 4)
-Summary(sum: 5000, percent: 5.5,years:5)
+summary(sum: 5000, percent: 5.5,years:5)
