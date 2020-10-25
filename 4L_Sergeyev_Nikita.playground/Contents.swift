@@ -1,3 +1,6 @@
+import UIKit
+
+var str = "Hello, playground"
 import Foundation
 
 enum EngineState{
@@ -38,5 +41,3 @@ var car = SportCar(brand: "Volvo", year: 2014, trunkVolume: 1683, useTrunkVolume
 car.windows = .closed
 car.engineStart()
 print(car.brand,car.year)
-
-
